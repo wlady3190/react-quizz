@@ -1,0 +1,156 @@
+[
+    {
+        "id": 1,
+        "question": "¿Cómo se declara una variable en JavaScript?",
+        "code": "let x = 10;",
+        "answers": [
+            "var x = 10;",
+            "let x = 10;",
+            "const x = 10;"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 2,
+        "question": "¿Cuál es la salida de este código?",
+        "code": "console.log(typeof []);",
+        "answers": [
+            "\"array\"",
+            "\"object\"",
+            "\"undefined\""
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 3,
+        "question": "¿Cómo se define una función flecha?",
+        "code": "const suma = (a, b) => a + b;",
+        "answers": [
+            "function suma(a, b) { return a + b; }",
+            "const suma = (a, b) => a + b;",
+            "let suma = function(a, b) { return a + b; };"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 4,
+        "question": "¿Qué devuelve el siguiente código?",
+        "code": "console.log(Boolean(''));",
+        "answers": [
+            "true",
+            "false",
+            "null"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 5,
+        "question": "¿Cuál es la salida del siguiente código?",
+        "code": "console.log(0 == false);",
+        "answers": [
+            "true",
+            "false",
+            "undefined"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 6,
+        "question": "¿Qué método se usa para convertir un array en una cadena de texto?",
+        "code": "const arr = [1, 2, 3]; console.log(arr.join('-'));",
+        "answers": [
+            "arr.toString()",
+            "arr.join('-')",
+            "arr.concat('-')"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 7,
+        "question": "¿Cuál es la diferencia entre 'null' y 'undefined'?",
+        "code": "",
+        "answers": [
+            "'null' es un valor asignado intencionalmente, 'undefined' indica ausencia de valor.",
+            "'null' y 'undefined' son iguales y pueden intercambiarse.",
+            "'null' se usa solo en objetos, mientras que 'undefined' es para cualquier variable."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 8,
+        "question": "¿Qué método se usa para agregar elementos al final de un array?",
+        "code": "const arr = [1, 2, 3]; arr.push(4);",
+        "answers": [
+            "arr.push(4)",
+            "arr.unshift(4)",
+            "arr.pop()"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 9,
+        "question": "¿Cómo se accede a la longitud de un array?",
+        "code": "const arr = [1, 2, 3]; console.log(arr.length);",
+        "answers": [
+            "arr.size",
+            "arr.count",
+            "arr.length"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 10,
+        "question": "¿Cuál es la salida del siguiente código?",
+        "code": "console.log(typeof NaN);",
+        "answers": [
+            "\"number\"",
+            "\"NaN\"",
+            "\"undefined\""
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 11,
+        "question": "¿Qué operador se usa para comprobar igualdad estricta?",
+        "code": "console.log(2 === '2');",
+        "answers": [
+            "==",
+            "===",
+            "!="
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 12,
+        "question": "¿Cómo se puede copiar un objeto sin referencia?",
+        "code": "const obj = { a: 1, b: 2 }; const copy = { ...obj };",
+        "answers": [
+            "const copy = Object.assign({}, obj);",
+            "const copy = obj;",
+            "const copy = [...obj];"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 13,
+        "question": "¿Cómo se define un objeto en JavaScript?",
+        "code": "const persona = { nombre: 'Ana', edad: 25 };",
+        "answers": [
+            "const persona = [nombre: 'Ana', edad: 25];",
+            "const persona = { nombre: 'Ana', edad: 25 };",
+            "const persona = new Object(nombre: 'Ana', edad: 25);"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 14,
+        "question": "¿Cómo se usa 'setTimeout' en JavaScript?",
+        "code": "setTimeout(() => { console.log('Hola'); }, 2000);",
+        "answers": [
+            "setTimeout(function() { console.log('Hola'); }, 2000);",
+            "setTimeout('console.log(\"Hola\")', 2000);",
+            "setTimeout(() => console.log('Hola'), 2000);"
+        ],
+        "correctAnswer": 2
+    }
+]

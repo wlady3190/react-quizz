@@ -8,7 +8,8 @@ export default tseslint.config(
   { ignores: ['dist'] },
   {
     extends: [js.configs.recommended, 
-      ...tseslint.configs.recommended
+      ...tseslint.configs.recommended,
+      './node_modules/ts-standard/eslintrc.json'
     ],
     files: ['**/*.{ts,tsx}'],
     languageOptions: {
